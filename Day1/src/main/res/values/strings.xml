@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Day1</string>
+
+    <string name="Android_widgets">
+
+        Android Widgets
+
+There are given a lot of android widgets with simplified examples such as Button, EditText, AutoCompleteTextView, ToggleButton, DatePicker, TimePicker, ProgressBar etc.\n\n
+
+Android widgets are easy to learn. The widely used android widgets with examples are given below:\n
+Android Button\n
+
+Let\'s learn how to perform event handling on button click.\n
+Android Toast\n\n
+
+Displays information for the short duration of time.\n
+Custom Toast\n\n
+
+We are able to customize the toast, such as we can display image on the toast\n
+ToggleButton\n\n
+
+It has two states ON/OFF.\n
+CheckBox\n\n
+
+Let\'s see the application of simple food ordering.\n
+AlertDialog\n\n
+
+AlertDialog displays a alert dialog containing the message with OK and Cancel buttons.\n
+Spinner\n\n
+
+Spinner displays the multiple options, but only one can be selected at a time.\n
+AutoCompleteTextView\n\n
+
+Let's see the simple example of AutoCompleteTextView.\n
+RatingBar\n\n
+
+RatingBar displays the rating bar.\n
+DatePicker\n\n
+
+Datepicker displays the datepicker dialog that can be used to pick the date.\n
+TimePicker\n\n
+
+TimePicker displays the timepicker dialog that can be used to pick the time.\n
+ProgressBar\n\n
+
+ProgressBar displays progress task.\n
+
+    </string>
+</resources>
