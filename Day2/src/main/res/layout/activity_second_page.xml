@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondPage"
+    android:padding="30dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CheckBox and RadioButton"
+        android:textColor="#000"
+        android:textStyle="italic"
+        android:textSize="16sp"
+        android:layout_centerHorizontal="true"
+
+
+        />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="25dp"
+        android:layout_centerHorizontal="true"
+        android:background="#B8B894"
+        android:layout_marginBottom="10dp"
+        />
+
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkbox1"
+        android:text="@string/checkbox1_text"
+        android:button="@drawable/checkbox_customize"
+        android:layout_marginTop="40dp"
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkbox2"
+        android:layout_below="@+id/checkbox1"
+        android:text="@string/checkbox2_text"
+        android:layout_marginTop="10dp"
+        android:button="@drawable/checkbox_customize"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkbox3"
+        android:layout_below="@+id/checkbox2"
+        android:text="@string/checkbox3_text"
+        android:layout_marginTop="10dp"
+        android:button="@drawable/checkbox_customize"
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkbox4"
+        android:layout_below="@+id/checkbox3"
+        android:text="@string/checkbox4_text"
+        android:layout_marginTop="10dp"
+        android:button="@drawable/checkbox_customize"
+        />
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/RadioGroupId"
+        android:layout_below="@id/checkbox4">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton1"
+            android:text="@string/checkbox5_text"
+            android:layout_marginTop="10dp"
+            android:button="@drawable/radiobutton_customize"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton2"
+            android:layout_below="@+id/radioButton1"
+            android:text="@string/checkbox6_text"
+            android:layout_marginTop="10dp"
+            android:button="@drawable/radiobutton_customize"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton3"
+            android:layout_below="@+id/radioButton2"
+            android:text="@string/checkbox7_text"
+            android:layout_marginTop="10dp"
+            android:button="@drawable/radiobutton_customize"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton4"
+            android:layout_below="@+id/radioButton3"
+            android:text="@string/checkbox8_text"
+            android:layout_marginTop="10dp"
+            android:button="@drawable/radiobutton_customize"
+            />
+
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next_page"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:id="@+id/secondnextButtonId"
+        android:layout_below="@id/RadioGroupId"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Day2</string>
+    <string name="add">Add</string>
+    <string name="next_page">Click here to go next page</string>
+
+    <string name="checkbox1_text">Rise early in the morning</string>
+    <string name="checkbox2_text">Pray and Meditation</string>
+    <string name="checkbox3_text">Do home task</string>
+    <string name="checkbox4_text">Attended in class</string>
+    <string name="checkbox5_text">Android practice</string>
+    <string name="checkbox6_text">C/C++</string>
+    <string name="checkbox7_text">Tution</string>
+    <string name="checkbox8_text">Self develop</string>
+
+    <string-array name="space">
+
+        <item>Galaxy</item>
+        <item>Star</item>
+        <item>Planet</item>
+        <item>Nebula</item>
+        <item>Astoroid</item>
+        <item>Moon</item>
+        <item>Balck-hole</item>
+        <item>Warm-hole</item>
+        <item>Comet</item>
+        <item>Alien</item>
+
+    </string-array>
+
+
+
+
+</resources>
